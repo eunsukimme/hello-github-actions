@@ -9,4 +9,5 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
+          GREETING: "Welcome!"
           MY_NAME: "Eunsu"
