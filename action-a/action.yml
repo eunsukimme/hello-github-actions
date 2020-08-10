@@ -3,6 +3,9 @@ description: "Greet Eunsukimme"
 author: "eunsukimme@github.com"
 
 inputs:
+  GREETING: 
+    description: "word to greet"
+    required: true
   MY_NAME:
     description: "Who to greet"
     required: true
